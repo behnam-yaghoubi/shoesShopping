@@ -54,8 +54,7 @@ const theme = createMuiTheme({
       fontWeight: 200
     },
     button: {
-      fontSize: 15,
-      fontWeight: 'bold'
+      fontSize: 15
     },
     overline: {
       fontSize: 13,
