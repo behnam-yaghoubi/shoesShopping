@@ -23,6 +23,12 @@ export default makeStyles((theme) => ({
     '&:hover': {
       opacity: 0.5,
       transition: '.5s'
+    },
+    [theme.breakpoints.down('xs')]: {
+      '&:hover': {
+        opacity: 1,
+        transition: '.5s'
+      }
     }
   },
   shoppIcon: {

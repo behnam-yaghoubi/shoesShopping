@@ -9,7 +9,7 @@ export default {
   },
   text: {
     primary: '#FFF',
-    secondary: '#177a8d',
+    secondary: '#586d71',
     disabled: '#b18080',
     inActiveMenu: '#959696'
   },
@@ -17,6 +17,7 @@ export default {
     shoppIcon: '#77a3bf'
   },
   border: {
-    cartItemBorder: '#d7dadc'
+    cartItemBorder: '#d7dadc',
+    drawerItemBorder: '#393c41'
   }
 };

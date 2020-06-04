@@ -2,6 +2,13 @@ import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 import palette from './palette';
 
 const theme = createMuiTheme({
+  overrides: {
+    MuiButton: {
+      root: {
+        transition: 'none'
+      }
+    }
+  },
   direction: 'rtl',
   palette,
   spacing: 2,
